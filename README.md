@@ -116,3 +116,25 @@ This is related to the longest common subsequence problem which is NP-complete.
 Software for visualization of proteins.
 
 See [this](https://www.youtube.com/watch?v=wiKyOF-pGw4) for a tutorial series on using PyMol.
+
+**BLAST**
+
+aka Basic Local Alignment Search Tool
+
+From [Wikipedia](https://en.wikipedia.org/wiki/BLAST_(biotechnology)).
+
+> In [bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics), **BLAST** (**basic local alignment search tool**) is an [algorithm](https://en.wikipedia.org/wiki/Algorithm) and program for comparing [primary](https://en.wikipedia.org/wiki/Primary_structure) biological sequence information, such as the [amino-acid](https://en.wikipedia.org/wiki/Amino_acid) sequences of [proteins](https://en.wikipedia.org/wiki/Protein) or the [nucleotides](https://en.wikipedia.org/wiki/Nucleotide) of [DNA](https://en.wikipedia.org/wiki/DNA_sequence) and/or [RNA](https://en.wikipedia.org/wiki/RNA) sequences. A BLAST search enables a researcher to compare a subject  protein or nucleotide sequence (called a query) with a library or [database](https://en.wikipedia.org/wiki/Database) of sequences, and identify library sequences that resemble the query sequence above a certain threshold.
+>
+> Different types of BLASTs are available according to the query sequences and the target databases. For example, following the discovery of a  previously unknown gene in the [mouse](https://en.wikipedia.org/wiki/Mus_musculus), a scientist will typically perform a BLAST search of the [human genome](https://en.wikipedia.org/wiki/Human_genome) to see if humans carry a similar gene; BLAST will identify sequences in the human genome that resemble the mouse gene based on similarity of  sequence. 
+
+**Redundancy**
+
+Largely similar protein sequences may be "redundant", where a single sequence can be used to concisely represent a cluster of similar sequences. Non-redundant datasets typically use BLAST to identify similar sequences before selecting a single representative sequence from each cluster.
+
+See [Redundancy in the PDB](http://www.rcsb.org/pdb/statistics/clusterStatistics.do).
+
+**Molecular Dynamics (MD)**
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Molecular_dynamics).
+
+> **Molecular dynamics** (**MD**) is a [computer simulation](https://en.wikipedia.org/wiki/Computer_simulation) method for analyzing the [physical movements](https://en.wikipedia.org/wiki/Motion_(physics)) of [atoms](https://en.wikipedia.org/wiki/Atoms) and [molecules](https://en.wikipedia.org/wiki/Molecules). The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the [dynamic](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) "evolution" of the system. In the most common version, the [trajectories](https://en.wikipedia.org/wiki/Trajectory) of atoms and molecules are determined by [numerically solving](https://en.wikipedia.org/wiki/Numerical_integration) [Newton's equations of motion](https://en.wikipedia.org/wiki/Newton's_laws_of_motion) for a system of interacting particles, where [forces](https://en.wikipedia.org/wiki/Force_(physics)) between the particles and their [potential energies](https://en.wikipedia.org/wiki/Potential_energy) are often calculated using [interatomic potentials](https://en.wikipedia.org/wiki/Interatomic_potential) or [molecular mechanics](https://en.wikipedia.org/wiki/Molecular_mechanics) [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)).
