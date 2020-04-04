@@ -138,3 +138,98 @@ See [Redundancy in the PDB](http://www.rcsb.org/pdb/statistics/clusterStatistics
 From [Wikipedia](https://en.wikipedia.org/wiki/Molecular_dynamics).
 
 > **Molecular dynamics** (**MD**) is a [computer simulation](https://en.wikipedia.org/wiki/Computer_simulation) method for analyzing the [physical movements](https://en.wikipedia.org/wiki/Motion_(physics)) of [atoms](https://en.wikipedia.org/wiki/Atoms) and [molecules](https://en.wikipedia.org/wiki/Molecules). The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the [dynamic](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) "evolution" of the system. In the most common version, the [trajectories](https://en.wikipedia.org/wiki/Trajectory) of atoms and molecules are determined by [numerically solving](https://en.wikipedia.org/wiki/Numerical_integration) [Newton's equations of motion](https://en.wikipedia.org/wiki/Newton's_laws_of_motion) for a system of interacting particles, where [forces](https://en.wikipedia.org/wiki/Force_(physics)) between the particles and their [potential energies](https://en.wikipedia.org/wiki/Potential_energy) are often calculated using [interatomic potentials](https://en.wikipedia.org/wiki/Interatomic_potential) or [molecular mechanics](https://en.wikipedia.org/wiki/Molecular_mechanics) [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)).
+
+**Library**
+
+***Protein Fragment Library***
+
+A set of protein fragments, typically modeling only the backbone carbon chain or backbone heavy atoms. This is used to simplify the modeling and exploration of protein structures.
+
+***Rotamer Library***
+
+Complementary to the fragment library, the rotamer library focuses on the side chain conformations.
+
+**Circular Permutation**
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Circular_permutation_in_proteins).
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Circular_Permutation_In_Proteins.svg/353px-Circular_Permutation_In_Proteins.svg.png)
+
+It might be simpler to think of circular permutation in proteins as a shifting of the termini to alternative positions, while preserving the shape of the protein. As can be expected, this occurs more easily when the termini are close to each other in the tertiary structure.
+
+> The motivation for creating a circular permutant of a protein can  vary. Scientists may want to improve some property of the protein, such  as:
+>
+> - **Reduce [proteolytic](https://en.wikipedia.org/wiki/Proteolysis) susceptibility.** The rate at which proteins are broken down can have a large impact on  their activity in cells. Since termini are often accessible to [proteases](https://en.wikipedia.org/wiki/Protease), designing a circularly permuted protein with less-accessible termini can increase the lifespan of that protein in the cell.
+> - **Improve [catalytic activity](https://en.wikipedia.org/wiki/Catalysis).** Circularly permuting a protein can sometimes increase the rate at which it catalyzes a chemical reaction, leading to more efficient proteins.
+> - **Alter substrate or [ligand binding](https://en.wikipedia.org/wiki/Ligand_binding).** Circularly permuting a protein can result in the loss of [substrate binding](https://en.wikipedia.org/wiki/Enzyme_substrate_(biology)), but can occasionally lead to novel ligand binding activity or altered substrate specificity.
+> - **Improve [thermostability](https://en.wikipedia.org/wiki/Thermostability).** Making proteins active over a wider range of temperatures and conditions can improve their utility.
+>
+> Alternately, scientists may be interested in properties of the original protein, such as:
+>
+> - **Fold order.** Determining the order in which different  parts of a protein fold is challenging due to the extremely fast time  scales involved. Circularly permuted versions of proteins will often  fold in a different order, providing information about the folding of  the original protein.
+> - **Essential structural elements.** Artificial circularly permuted proteins can allow parts of a protein to be selectively deleted. This  gives insight into which structural elements are essential or not.
+> - **Modify [quaternary structure](https://en.wikipedia.org/wiki/Protein_quaternary_structure).** Circularly permuted proteins have been shown to take on different quaternary structure than wild-type proteins.
+> - **Find insertion sites for other proteins.** Inserting one protein as a domain into another protein can be useful. For instance, inserting [calmodulin](https://en.wikipedia.org/wiki/Calmodulin) into [green fluorescent protein](https://en.wikipedia.org/wiki/Green_fluorescent_protein) (GFP) allowed researchers to measure the activity of calmodulin via the [fluorescence](https://en.wikipedia.org/wiki/Fluorescence) of the split-GFP. Regions of GFP that tolerate the introduction of circular permutation  are more likely to accept the addition of another protein while  retaining the function of both proteins.
+> - **Design of novel [biocatalysts](https://en.wikipedia.org/wiki/Biocatalyst) and biosensors.** Introducing circular permutations can be used to design proteins to catalyze specific chemical reactions, or to detect the presence of certain molecules using proteins. For  instance, the GFP-calmodulin fusion described above can be used to  detect the level of calcium ions in a sample.
+
+**Epitope**
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Epitope).
+
+>  An **epitope**, also known as **antigenic determinant**, is the part of an [antigen](https://en.wikipedia.org/wiki/Antigen) that is recognized by the [immune system](https://en.wikipedia.org/wiki/Immune_system), specifically by [antibodies](https://en.wikipedia.org/wiki/Antibody), [B cells](https://en.wikipedia.org/wiki/B_cell), or [T cells](https://en.wikipedia.org/wiki/T_cell). For example, the epitope is the specific piece of the antigen to which  an antibody binds.  The part of an antibody that binds to the epitope is called a [paratope](https://en.wikipedia.org/wiki/Paratope).
+
+**Assay**
+
+A procedure to determine the presence and amount of a substance.
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Assay).
+
+> An **assay** is an investigative (analytic) procedure in [laboratory medicine](https://en.wikipedia.org/wiki/Laboratory_medicine), [pharmacology](https://en.wikipedia.org/wiki/Pharmacology), [environmental biology](https://en.wikipedia.org/wiki/Environmental_biology) and [molecular biology](https://en.wikipedia.org/wiki/Molecular_biology) for qualitatively assessing or quantitatively measuring the presence,  amount, or functional activity of a target entity (the analyte).  The  analyte can be a [drug](https://en.wikipedia.org/wiki/Drug), [biochemical substance](https://en.wikipedia.org/wiki/Biochemistry), or [cell](https://en.wikipedia.org/wiki/Cell_(biology)) in an [organism](https://en.wikipedia.org/wiki/Organism) or organic [sample](https://en.wikipedia.org/wiki/Sample_(material)). The measured entity is often called the **analyte**, the **measurand**, or the **target** of the assay. An assay usually aims to measure an analyte's [intensive property](https://en.wikipedia.org/wiki/Intensive_and_extensive_properties) and express it in the relevant measurement unit (e.g. [molarity](https://en.wikipedia.org/wiki/Molarity), [density](https://en.wikipedia.org/wiki/Density), functional activity in enzyme international units, degree of effect in comparison to a standard, etc.).
+
+>**Protein**
+>
+>- [Bicinchoninic acid assay](https://en.wikipedia.org/wiki/Bicinchoninic_acid_assay) (BCA assay)
+>- [Bradford protein assay](https://en.wikipedia.org/wiki/Bradford_protein_assay)
+>- [Lowry protein assay](https://en.wikipedia.org/wiki/Lowry_protein_assay)
+>- [Secretion assay](https://en.wikipedia.org/wiki/Secretion_assay)
+
+**Scaffolds**
+
+***Scaffold Proteins***
+
+(Note: This is not what is meant by *scaffold* in protein design.)
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Scaffold_protein).
+
+> In biology, **scaffold proteins** are crucial regulators of many key [signalling pathways](https://en.wikipedia.org/wiki/Signalling_pathway).  Although scaffolds are not strictly defined in function, they are  known to interact and/or bind with multiple members of a signalling  pathway, tethering them into [complexes](https://en.wikipedia.org/wiki/Multiprotein_complex).  In such pathways, they regulate signal transduction and help localize  pathway components (organized in complexes) to specific areas of the  cell such as the [plasma membrane](https://en.wikipedia.org/wiki/Plasma_membrane), the [cytoplasm](https://en.wikipedia.org/wiki/Cytoplasm), the [nucleus](https://en.wikipedia.org/wiki/Cell_nucleus), the [Golgi](https://en.wikipedia.org/wiki/Golgi_apparatus), [endosomes](https://en.wikipedia.org/wiki/Endosomes), and the [mitochondria](https://en.wikipedia.org/wiki/Mitochondria).
+
+***Scaffolds in Protein Design***
+
+In protein design, scaffolds typically refer to general "templates" of structures, around which a protein sequence can be designed.
+
+**Receptor Binding Domain (RBD)**
+
+This refers to the domain of a protein (e.g. an S protein) that binds to a target.
+
+**Antibody (Ab) / Immunoglobin (Ig)**
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Antibody).
+
+> An **antibody** (**Ab**), also known as an **immunoglobulin** (**Ig**), is a large, Y-shaped [protein](https://en.wikipedia.org/wiki/Protein) produced mainly by [plasma cells](https://en.wikipedia.org/wiki/Plasma_cell) that is used by the [immune system](https://en.wikipedia.org/wiki/Immune_system) to neutralize [pathogens](https://en.wikipedia.org/wiki/Pathogen) such as [pathogenic bacteria](https://en.wikipedia.org/wiki/Pathogenic_bacteria) and [viruses](https://en.wikipedia.org/wiki/Viral_disease). The antibody recognizes a unique molecule of the pathogen, called an [antigen](https://en.wikipedia.org/wiki/Antigen), via the [fragment antigen-binding](https://en.wikipedia.org/wiki/Fragment_antigen-binding) (Fab) variable region. Each tip of the "Y" of an antibody contains a [paratope](https://en.wikipedia.org/wiki/Paratope) (analogous to a lock) that is specific for one particular [epitope](https://en.wikipedia.org/wiki/Epitope) (analogous to a key) on an antigen, allowing these two structures to  bind together with precision. Using this binding mechanism, an antibody  can *tag* a [microbe](https://en.wikipedia.org/wiki/Microbe) or an infected cell for attack by other parts of the immune system, or  can neutralize its target directly (for example, by inhibiting a part of a microbe that is essential for its invasion and survival).
+
+Structurally, Abs consist of:
+
+> four [polypeptide](https://en.wikipedia.org/wiki/Polypeptide) chains; two identical *heavy chains* and two identical *light chains* connected by [disulfide bonds](https://en.wikipedia.org/wiki/Disulfide_bond).
+
+The antigen-binding site (Fab) comprises a light-chain and half of a heavy-chain, while the fragment crystallizable (Fc) region comprises the other halves of the heavy-chains. 
+
+**Yeast Display**
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Yeast_display).
+
+> **Yeast display** (or **yeast surface display**) is a [protein engineering](https://en.wikipedia.org/wiki/Protein_engineering) technique that uses the expression of [recombinant proteins](https://en.wikipedia.org/wiki/Recombinant_protein) incorporated into the cell wall of [yeast](https://en.wikipedia.org/wiki/Yeast) for isolating and engineering [antibodies](https://en.wikipedia.org/wiki/Antibody).
+
+Basically the yeast expresses the recombinant proteins and "display" these proteins on the surface of the cell wall. This technique can be used to engineer and isolate specialized proteins via [directed evolution](https://en.wikipedia.org/wiki/Directed_evolution).
+
+> Alternative methods for protein evolution *in vitro* are [mammalian display](https://en.wikipedia.org/w/index.php?title=Mammalian_display&action=edit&redlink=1), [phage display](https://en.wikipedia.org/wiki/Phage_display), [ribosome display](https://en.wikipedia.org/wiki/Ribosome_display), [bacterial display](https://en.wikipedia.org/wiki/Bacterial_display), and [mRNA display](https://en.wikipedia.org/wiki/MRNA_display).
+
